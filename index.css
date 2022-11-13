@@ -322,6 +322,7 @@ header .home section .div .companies a {
   background-color: black;
   letter-spacing: 1px;
   border: solid 2px black;
+  color: white;
 }
 
 header .home section .div .companies a i{
@@ -339,7 +340,6 @@ header .home section .div .companies a:hover{
 header .home section .div .companies .o1{
     font-weight: 500;
     color: orangered;
-    color: white;
 }
 
 header .home section .div .companies .o1 span{
@@ -348,7 +348,6 @@ header .home section .div .companies .o1 span{
 
 header .home section .div .companies .o2{
     font-family: "Righteous", sans-serif ;
-    color: white;
 }
   
 
@@ -581,14 +580,14 @@ header .home section .div2 .companies a {
 
   header .home section .div1 h1 {
     font-size: 28px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   header .home section .div1 .logo {
     margin-top: -1px;
-    width: 100%;
+    /* width: 100%;
     text-align: center;
-    justify-content: center;
+    justify-content: center; */
   }
 
   header .home section .div1 h3 {
@@ -634,8 +633,9 @@ header .home section .div2 .companies a {
     width: 280px;
     height: 280px;
     background: rgba(58, 57, 57, 0.5);
-    margin-left: -2%;
-    margin-top: -15%;
+    background-color: white;
+    margin-left: -5%;
+    margin-top: -20%;
 
   }
 
@@ -650,7 +650,7 @@ header .home section .div2 .companies a {
 
   header .home nav {
     height: 65px;
-    padding: 0 4%;
+    padding: 0 5%;
   }
 
   
@@ -662,7 +662,7 @@ header .home section .div2 .companies a {
   header .home section .div .text{
     margin-bottom: 15px;
     margin-top: 10px;
-    margin: 0 4%;
+    margin: 0 5%;
   }
 
   header .home nav .logo {
@@ -679,7 +679,7 @@ header .home section .div2 .companies a {
   header .home section .div2 .sp1 {
     height: fit-content;
     padding: 0 4%;
-    padding: 30px 4% 50px 4%;
+    padding: 30px 5% 50px 5%;
     /* border: solid 1px black; */
     /* margin: 0 4%; */
 
@@ -692,9 +692,17 @@ header .home section .div2 .companies a {
   header .home section .div .companies a{
     margin-right: 0;
     margin-left: 15px;
-    height: 35px;
+    height: 38px;
     padding: 0 15px;
-    font-size: 14px;
+    font-size: 15px;
+    background-color: white;
+    border: solid 2px black;
+    color: black;
+  }
+
+  header .home section .div .companies a i{
+
+    color: black;
   }
 
   
