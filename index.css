@@ -379,7 +379,7 @@ header .home section .div2 .sp1 .oo {
 header .home section .div2 .sp1 .oo1 {
   background-image: url(pexels-cottonbro-6491249.jpg);
   margin-top: -100px;
-  z-index: 1;
+  /* z-index: 1; */
   margin-right: 40px;
   padding-left: 30px;
 }
@@ -419,6 +419,52 @@ header .home section .div2 .companies a {
   width: 200px;
   border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 970px) {
   header .home nav .logo {
@@ -514,20 +560,21 @@ header .home section .div2 .companies a {
     /* height: fit-content; */
     height: fit-content;
     /* border: solid 1px silver; */
-    padding: 9% 0 8% 0;
+    padding: 6% 0 8% 0;
   }
 
   header .home section .div1 h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   header .home section .div1 .logo {
-    margin-top: 1px;
+    margin-top: -1px;
   }
 
   header .home section .div1 h3 {
     font-size: 14px;
     width: 100%;
+    font-weight: 500;
   }
   header .home section .div2 .sp1 {
     flex-direction: row;
@@ -540,13 +587,11 @@ header .home section .div2 .companies a {
     width: 250px;
     height: 250px;
     /* border: solid 4px; */
-    box-shadow: 0px 0px 0px 4px white, 0px 0px 5px 1px rgba(174, 174, 174, 0.1);
+    box-shadow: 0px 0px 0px 4px transparent, 0px 0px 5px 1px rgba(174, 174, 174, 0.1);
   }
 
   header .home section .div2 .sp1 .oo1 {
-    background-image: url(pexels-cottonbro-6491249.jpg);
     margin-top: -90px;
-    z-index: 1;
     margin-right: 25px;
     padding-left: 30px;
   }
@@ -558,6 +603,41 @@ header .home section .div2 .companies a {
 }
 
 @media screen and (max-width: 600px) {
+  header .boxes {
+    background-color: rgba(240, 240, 240, 0.9);
+    overflow: hidden;
+    filter: blur(60px);
+  }
+  
+
+  header .boxes .sp1 {
+    width: 280px;
+    height: 280px;
+    background: rgba(58, 57, 57, 0.5);
+    margin-left: -2%;
+    margin-top: -15%;
+
+  }
+
+  header .boxes .sp2 {
+    width: 400px;
+    height: 400px;
+    background: rgba(58, 57, 57, 0.5);
+    opacity: 0.5;
+    margin-right: -23%;
+    margin-bottom: -14%;
+  }
+
+  header .home nav {
+    height: 65px;
+    padding: 0 4%;
+  }
+
+  
+  header .home section {
+    padding: 0 4%;
+  }
+
   header .home section .div2 .sp1 {
     height: fit-content;
     padding: 30px 0 50px 0;
