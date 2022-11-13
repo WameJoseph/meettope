@@ -581,10 +581,14 @@ header .home section .div2 .companies a {
 
   header .home section .div1 h1 {
     font-size: 28px;
+    text-align: center;
   }
 
   header .home section .div1 .logo {
     margin-top: -1px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
   }
 
   header .home section .div1 h3 {
