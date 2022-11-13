@@ -47,7 +47,7 @@ header .boxes {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(240, 240, 240, 0.815);
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
   filter: blur(60px);
 }
@@ -81,19 +81,12 @@ header .boxes .sp2 {
   height: 600px;
   border-radius: 100%;
 
-  background-image: linear-gradient(
-    to right top,
-    #5dee4e,
-    #61df62,
-    #68cf71,
-    #6fbf7c,
-    #78af84
-  );
-  opacity: 0.5;
+
+  /* opacity: 0.5; */
   margin-right: -8%;
   margin-bottom: -14%;
   margin-top: auto;
-  /* background: rgba(58, 57, 57, 0.15); */
+  background: rgba(58, 57, 57, 0.65);
 
 }
 
@@ -244,7 +237,7 @@ header .home section .div {
   /* border: 1px solid silver; */
   width: 50%;
   height: fit-content;
-  height: 500px;
+  height: 530px;
   /* border: solid 1px silver; */
 }
 
@@ -312,53 +305,63 @@ header .home section .div .companies a {
   /* width: 170px; */
   /* border: solid 1px silver; */
   border-radius: 30px;
-  height: 45px;
+  height: 40px;
   margin: 5px 0;
   margin-right: 15px;
   margin-left: 2px;
   background-color: rgba(216, 215, 215, 0.384);
   -webkit-backdrop-filter: blur(30px);
-  border: solid 0.5px rgba(255, 255, 255, 0.364);
+  border: solid 1px rgba(255, 255, 255, 0.664);
   box-shadow: 0px 0px 3px 3px rgba(196, 196, 196, 0.1);
+  background-color: rgba(214, 214, 214, 0.159);
+  background-color: white;
   padding: 0 20px;
   display: flex; justify-content: space-between; align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: black;
+  letter-spacing: 1px;
+  border: solid 2px black;
 }
 
 header .home section .div .companies a i{
     margin-left: 10px;
     color: black;
+    color: white;
+    font-weight: 400;
 }
   
 header .home section .div .companies a:hover{
-  /* background-color: rgba(218, 217, 217, 0.288); */
-  background-color: rgba(214, 214, 214, 0.159);
-  box-shadow: 0px 0px 3px 3px rgba(204, 204, 204, 0.3);
-
-    padding: 0 15px;
+  background-color: rgb(0, 0, 0, 0.9);
+  
 }
 
 header .home section .div .companies .o1{
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
     color: orangered;
+    color: white;
+}
+
+header .home section .div .companies .o1 span{
+  /* color: orange; */
 }
 
 header .home section .div .companies .o2{
-    font-weight: 600;
-    font-size: 16px;
-    /* color: orangered; */
+    font-family: "Righteous", sans-serif ;
+    color: white;
 }
   
 
 header .home section .div2 {
   /* flex-direction: row; align-items: center; justify-content: right; */
   /* border: solid green; */
-  padding: 40px 0 0 0;
+  padding: 0 0 0 0;
+  /* align-items: center; */
 }
 
 header .home section .div2 .sp1 {
   width: 100%;
-  height: fit-content;
+  height: 100%;
   /* border: solid 1px silver; */
   display: flex;
   flex-direction: row;
@@ -573,7 +576,7 @@ header .home section .div2 .companies a {
     /* height: fit-content; */
     height: fit-content;
     /* border: solid 1px silver; */
-    padding: 6% 0 8% 0;
+    padding: 7% 0 8% 0;
   }
 
   header .home section .div1 h1 {
@@ -648,24 +651,54 @@ header .home section .div2 .companies a {
 
   
   header .home section {
-    padding: 0 4%;
+    padding: 0 0%;
+    /* border: solid ; */
   }
 
   header .home section .div .text{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     margin-top: 10px;
+    margin: 0 4%;
   }
 
   header .home nav .logo {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1.6px;
-    color: green;
+    /* color: green; */
+  }
+
+  header .home section .div2 {
+    margin: 0 4%;
   }
 
   header .home section .div2 .sp1 {
     height: fit-content;
-    padding: 30px 0 50px 0;
-    /* border: solid 1px green; */
+    padding: 0 4%;
+    padding: 30px 4% 50px 4%;
+    /* border: solid 1px black; */
+    /* margin: 0 4%; */
+
   }
+
+  header .home section .div .companies {
+    width: 100%;
+  }
+
+  header .home section .div .companies a{
+    margin-right: 0;
+    margin-left: 15px;
+    height: 35px;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+
+  
+  header .home section .div2 .sp1 .oo1 {
+    margin-top: -90px;
+    margin-right: 20px;
+    /* padding-left: 30px; */
+  }
+  
+
 }
