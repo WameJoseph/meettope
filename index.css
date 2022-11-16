@@ -687,16 +687,24 @@ main .client .holder{
     height: 300px;
     margin-left: -20%;
     margin-top: -40%;
-    border-radius: 100%;
+    border-radius: 30px;
   }
 
   header .boxes .sp2 {
-    background: rgba(16, 226, 86, 0.2);
+    /* background: rgba(16, 226, 86, 0.2); */
     margin-right: -28%;
     margin-bottom: -26%;
     width: 400px;
     height: 400px;
     border-radius: 30px;
+    background-image: linear-gradient(
+    to right top,
+    #5dee4e,
+    #61df62,
+    #68cf71,
+    #6fbf7c,
+    #78af84
+  );
   }
 
   header .home nav {
@@ -722,7 +730,7 @@ main .client .holder{
       /* height: fit-content; */
       height: fit-content;
       /* border: solid 1px silver; */
-      padding: 4% 0;
+      padding: 5% 0;
   
   }
 
@@ -782,6 +790,10 @@ main .client .holder{
     margin-top: -60px;
     margin-right: 20px;
     /* padding-left: 30px; */
+  }
+
+  header .home section .div2 .sp1 .oo2{
+    margin-top: 40px;
   }
   
 
