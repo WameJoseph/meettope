@@ -324,8 +324,8 @@ header .home section .div .companies a {
   font-size: 16px;
   background-color: white;
   letter-spacing: 1px;
-  border: solid 1.5px silver;
-  color: white;
+  border: solid 1.5px rgba(0, 0, 0, 0.59);
+  color: black;
 }
 
 header .home section .div .companies a i{
@@ -559,7 +559,7 @@ main .client .holder{
   }
 
   header .home section .div1 .logo{
-    color: green; 
+    color: rgb(6, 179, 6); 
   }
 
 
@@ -696,7 +696,7 @@ main .client .holder{
     margin-left: -20%;
     margin-top: -40%;
     border-radius: 30px;
-    background: rgba(16, 226, 86, 0.2);
+    background: rgba(16, 226, 86, 0.1);
 
   }
 
@@ -712,7 +712,7 @@ main .client .holder{
 
   header .home nav {
     height: 65px;
-    padding: 0 5%;
+    padding: 0 6%;
   }
 
   
@@ -740,7 +740,7 @@ main .client .holder{
   header .home section .div .text{
     margin-bottom: 15px;
     margin-top: 10px;
-    margin: 0 5%;
+    margin: 0 6%;
 
   }
 
@@ -761,7 +761,7 @@ main .client .holder{
   header .home section .div2 .sp1 {
     height: fit-content;
     padding: 0 4%;
-    padding: 0px 5% 0px 5%;
+    padding: 0px 6% 0px 6%;
     /* border: solid 1px black; */
     /* margin: 0 4%; */
 
